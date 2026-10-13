@@ -16,6 +16,7 @@ Give Me Some Credit (Kaggle, соревнование «Give Me Some Credit»).
 - `src/` — собственный код (например, трансформеры)
 - `reports/` — data dictionary и отчёты
 - `requirements.txt` — версии библиотек
+- `tests/` — тесты собственных трансформеров
 
 ## Как запустить
 1. Установить Python 3.11+.
@@ -30,9 +31,11 @@ Give Me Some Credit (Kaggle, соревнование «Give Me Some Credit»).
 ```
 4. Положить `cs-training.csv` в папку `data/`.
 5. Открыть notebook из папки `notebooks/` в VS Code (ядро `venv`) или Jupyter и выполнить `Run All`.
+6. Запустить тесты: `python -m pytest -v`
 
 ## Практические работы
 | ПР | Тема | Файл |
 |---|---|---|
 | 1 | Окружение и первичный анализ | `notebooks/01_setup_eda.ipynb` |
 | 2 | Разведочный анализ (EDA) | `notebooks/02_eda.ipynb` |
+| 3 | Пайплайн предобработки | `notebooks/03_pipeline.ipynb` |
