@@ -39,5 +39,6 @@ class CreditCleaner(BaseEstimator, TransformerMixin):
 
         # новые признаки
         X["total_late"] = X[LATE_COLS].sum(axis=1, min_count=1)
-        X["income_missing"] = X["income"].isna().astype(int)
+        if "income" in X.columns:
+            X["income_missing"] = X["income"].isna().astype(int)
         return X
