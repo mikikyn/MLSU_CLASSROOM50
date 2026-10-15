@@ -40,3 +40,4 @@ Give Me Some Credit (Kaggle, соревнование «Give Me Some Credit»).
 | 2 | Разведочный анализ (EDA) | `notebooks/02_eda.ipynb` |
 | 3 | Пайплайн предобработки | `notebooks/03_pipeline.ipynb` |
 | 4 | Линейная регрессия, градиентный спуск | `notebooks/04_regression.ipynb` |
+| 5 | Классификатор, дисбаланс классов | `notebooks/05_classification.ipynb` |
