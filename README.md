@@ -42,3 +42,4 @@ Give Me Some Credit (Kaggle, соревнование «Give Me Some Credit»).
 | 4 | Линейная регрессия, градиентный спуск | `notebooks/04_regression.ipynb` |
 | 5 | Классификатор, дисбаланс классов | `notebooks/05_classification.ipynb` |
 | 6 | Классификация текстов | `notebooks/06_text_classification.ipynb` |
+| 7 | Случайный лес, важность признаков, SHAP | `notebooks/07_random_forest.ipynb` |
